@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "BitMemory",
+        "image": "/images/BitMemory-screenshot.png",
+        "description": "A game developed for the Lightning Network with React and Strike API, BitMemory uses Bitcoin-themed memes to give a fun spin to the classic memory game.  Full play is 1000 satoshis, with tippin.me option and lightning node connection option at the end.",
+        "link": "https://bitmemory.herokuapp.com"
+
+    },
+    {
+        "id": 2,
+        "name": "BitWord Guess",
+        "image": "/images/BitWord-screenshot.png",
+        "description": "Developed with React and Strike API, BitWord Guess was highlighted by Lapps.co as an interactive Lightning Network game. Full play is 1000 satoshis, with tippin.me option at end or connection to lightning node.",
+        "link": "https://bitword.herokuapp.com"
+
+    },
+    {
+        "id": 3,
+        "name": "Trading Grounds",
+        "image": "/images/tg-screenshot.png",
+        "description": "A collaborative project, Trading Grounds is an educational app that simulates participation in the stock market by using a mock portfolio to 'buy' or 'sell' stocks using real-time information. Built with Node, Express, Handlebars, MySQL, Materialize CSS, Bootstrap, and third-party APIs.",
+        "link": "https://radiant-coast-91135.herokuapp.com/"
+
+    },
+    {
+        "id": 4,
+        "name": "pillBox",
+        "image": "/images/screenshot-dashboard.png",
+        "description": "PillBox was developed as a joint effort to solve the need for tracking medications and prescriptions. Built with React, MySQL, Sequelize, Bootstrap, and third-party API's.",
+        "link": "https://pacific-hollows-45719.herokuapp.com/"
+
+    },
+    {
+        "id": 5,
+        "name": "What's For Dinner, DFW",
+        "image": "/images/groupproject-screenshot.png",
+        "description": "Collaborative project utilizing the Zomato and Yummly API's to provide eat-in or dine-out options to residents in DFW. ",
+        "link": "https://shayshae5482.github.io/group-project/"
+
+    },
+    {
+        "id": 6,
+        "name": "Bamazon",
+        "image": "/images/screenshot-manager.png",
+        "description": "Bamazon is an Amazon-like storefront that runs as a command line node app. User options include customer and manager. Built primarily with MySQL and Node.js.",
+        "link": "https://github.com/jivinjules/Bamazon"
+
+    }
+]

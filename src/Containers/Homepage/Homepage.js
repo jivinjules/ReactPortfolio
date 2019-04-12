@@ -10,11 +10,13 @@ class Homepage extends React.Component {
 
    handleClick = () => this.setState({showFront: false, showAbout: true})
 
+   return = () => this.setState({showFront: true, showAbout: false})
+
     render() {
         return (
             <div>
                {this.state.showFront ? <FrontPage handleClick={this.handleClick} /> :  null }
-               {this.state.showAbout ? <AboutMe /> :  null }
+               {this.state.showAbout ? <AboutMe return={this.return}/> :  null }
             </div>
         )
     }

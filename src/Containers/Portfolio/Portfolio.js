@@ -1,9 +1,16 @@
 import React from 'react';
+import Card from '../../Components/Card/Card'
+// import projects from '../../projects.json'
 
 class Portfolio extends React.Component {
-    render () {
+    // state = {
+    //     projects
+    // }
+    render() {
         return (
-            <div>Portfolio</div>
+            <div>
+            <Card />
+            </div>
         )
     }
 }
