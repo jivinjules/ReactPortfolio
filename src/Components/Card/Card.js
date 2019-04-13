@@ -1,21 +1,29 @@
 import React, { Component } from 'react'
 import 'materialize-css/dist/css/materialize.min.css';
 import projects from '../../projects.json'
+import M from "materialize-css";
+
 
 class Card extends Component {
     state = {
         projects
     }
 
+    componentDidMount() {
+        // Auto initialize all the things!
+        M.AutoInit();
+    }
+
     render() {
         return (
-            <span>
+            <div className='row'>
+        
+                
                 {this.state.projects.map(project => (
-
-
-                    <div className="card" key={project.id}>
+                    <div className='col-md-4' key={project.id} >
+                         <div className="card">
                         <div className="card-image waves-effect waves-block waves-light">
-                            <img className="activator" src={project.image} alt={project.name} />
+                            <img className="activator"  src={project.image} alt={project.name} />
 
                         </div>
                         <div className="card-content">
@@ -28,8 +36,9 @@ class Card extends Component {
                             </div>
                         </div>
                     </div>
+                    </div>
                 ))}
-            </span>
+        </div>
 
         )
 

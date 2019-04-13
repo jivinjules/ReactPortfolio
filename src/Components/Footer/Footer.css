@@ -6,5 +6,12 @@
     flex-shrink: 0;
     text-align: center;
     margin-top: 50px;
+    background-color: white;
 
+}
+
+.links {
+    width: 60px;
+    height: 60px;
+    border-radius: 3px;
 }
