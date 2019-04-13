@@ -28,7 +28,7 @@ class Card extends Component {
                         </div>
                         <div className="card-content">
                             <span className="card-title activator grey-text text-darken-4">{project.name}<i className="material-icons right">more_vert</i></span>
-                            <a href={project.link}>Link: {project.name}</a>
+                            <a href={project.link}>Explore {project.name}!</a>
 
                             <div className="card-reveal">
                                 <span className="card-title grey-text text-darken-4">{project.name}<i className="material-icons right">close</i></span>
