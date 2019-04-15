@@ -7,7 +7,13 @@
     justify-content: space-around;
     align-content: flex-start;
     overflow: auto;
+    /* overflow-y: hidden; */
+
   }
+
+  ::-webkit-scrollbar {
+    display: none;
+    }
 
   @media only screen and (max-width: 768px) {
     .wrapper { 

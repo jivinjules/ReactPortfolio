@@ -6,7 +6,7 @@ const AboutMe = (props) => (
         and transforms our existing financial infrastructures, it is crucial to have developers with a deep understanding of blockchain technology. I have a passion for coding, cryptoassets, and blockchain
         technology. I desire to use my understanding of cryptocurrency, ability to learn and synthesize new information quickly, and coding skills to further this emergent technology and make sure it executes
         flawlessly. With ten years experience within education, I am an efficient problem-solver and able to thrive in fast-paced, highly demanding situations. </p>
-        <button onClick={props.return}>Return</button>
+        <button className='button' onClick={props.return}>Return</button>
     </div>
 )
 

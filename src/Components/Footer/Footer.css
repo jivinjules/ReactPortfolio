@@ -2,12 +2,11 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    color:white;
+    color:black;
     flex-shrink: 0;
     text-align: center;
     margin-top: 50px;
-
-}
+    }
 
 .links {
     width: 60px;
