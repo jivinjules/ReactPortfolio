@@ -9,10 +9,6 @@ import { sunflower } from './Components/LinkImages'
 
 const background = {
   backgroundImage: `URL(${sunflower})`,
-  backgroundSize: '100%',
-  backgroundPosition: 'center',
-  backgroundRepeat: 'no-repeat',
-  height: '100% important'
 }
 
 const App = () => (

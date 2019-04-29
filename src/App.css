@@ -8,13 +8,25 @@ body, html {
   margin: 0;
 }
 
-.container { 
-height: 100% !important;
-max-height: 100%;
-width:-webkit-fill-available !important;
-position: absolute;
-top: 0;
-bottom: 0;
-max-width: -webkit-fill-available;
-flex: 1 0 auto;
+.container {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100% !important;
+  max-height: 100%;
+  width:-webkit-fill-available !important;
+  max-width: -webkit-fill-available;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+ 
+}
+
+
+@media screen and (max-width: 1024px) {
+  .container { 
+    background-position: inherit;
+    background-size: cover;
+  }
+
 }

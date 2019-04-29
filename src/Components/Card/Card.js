@@ -44,8 +44,8 @@ class CardReveal extends Component {
             <Row>
              
                     {this.state.projects.map(project => (
-                           <Col m={4} s={12} key={project.id}>
-                        <Card   title={project.name} reveal={project.description}>
+                           <Col l={4} m={6} s={12} key={project.id}>
+                        <Card  title={project.name} reveal={project.description}>
                         <div className="card-image waves-effect waves-block waves-light">
                                <img className="activator"  src={project.image} alt={project.name} />
 
