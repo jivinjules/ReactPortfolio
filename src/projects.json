@@ -33,7 +33,7 @@
     },
     {
         "id": 5,
-        "name": "What's For Dinner, DFW",
+        "name": "Dinner DFW",
         "image": "/images/groupproject-screenshot.png",
         "description": "Collaborative project utilizing the Zomato and Yummly API's to provide eat-in or dine-out options to residents in DFW. ",
         "link": "https://shayshae5482.github.io/group-project/"

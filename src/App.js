@@ -9,11 +9,10 @@ import { sunflower } from './Components/LinkImages'
 
 const background = {
   backgroundImage: `URL(${sunflower})`,
-  backgroundSize: "cover",
-  height: "100%",
-  width: "auto",
-  left: '0',
-  right: '0'
+  backgroundSize: '100%',
+  backgroundPosition: 'center',
+  backgroundRepeat: 'no-repeat',
+  height: '100% important'
 }
 
 const App = () => (
@@ -23,8 +22,9 @@ const App = () => (
         <Route exact path='/' component={Homepage} />
         <Route exact path='/portfolio' component={Portfolio} />
       </Wrapper>
+
+      <Footer />
     </div>
-    <Footer />
 
   </Router>
 )

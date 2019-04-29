@@ -2,13 +2,14 @@
     display:block;
     border:none;
     color:white;
-    height:1px;
+    height:1.5px;
     background:black;
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
 }
 
 .front-page, a.front-page {
     text-align: center !important;
+    text-shadow: 1px 1px 2px black, 0 0 25px #4bb6b5, 0 0 5px #347b7a;
 }
 
 a.front-page {
@@ -17,6 +18,7 @@ a.front-page {
     color: black;
 }
 
-#meet:hover, #portfolio:hover {
+#meet:hover, #portfolio:hover, .front-page:hover {
     cursor: pointer;
+    opacity: .8;
 }

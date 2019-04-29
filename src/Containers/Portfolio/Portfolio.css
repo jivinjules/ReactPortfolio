@@ -1,17 +1,14 @@
 .button {
     color: white;
+    font-size: 18px;
     background-color: rgb(37, 35, 35);
     border: none;
     border-radius: 2px;
     padding: 5px;
     opacity: 1;
+    margin-left: 15px;
    }
 
-.returnOrMove {
-    position: fixed;
-    z-index: 100;
-
-}
 
 .button:hover {
     opacity: .7;

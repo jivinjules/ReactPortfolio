@@ -1,16 +1,17 @@
 import React from 'react';
-import Card from '../../Components/Card/Card'
+import CardReveal from '../../Components/Card/Card'
 import './Portfolio.css'
 
 class Portfolio extends React.Component {
-      render() {   
+
+    render() {
         return (
             <div>
-
-                <Card />
                 <div className='returnOrMove'>
-                <button className='button'><a id='return' href='/'>Return</a></button> <i className="fas fa-arrow-alt-square-right"></i>
+                    <button className='button'><a id='return' href='/'>Return</a></button> <i className="fas fa-arrow-alt-square-right"></i>
                 </div>
+
+                <CardReveal />
 
             </div>
         )
