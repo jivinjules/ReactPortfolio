@@ -22,3 +22,8 @@ a.front-page {
     cursor: pointer;
     opacity: .8;
 }
+
+#title:hover {
+    cursor: none !important;
+    opacity: 1 !important;
+}
